@@ -1,0 +1,106 @@
+
+body {
+    background-color: rgb(255, 196, 205);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app  {
+    text-align: center;
+}
+
+.app h1 {
+    font-size: 30px;
+}
+
+.birth-date {
+    margin-top:20px;
+}
+
+.birth-date h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    color: deeppink;
+}
+
+.birth-date span {
+    font-size: 33px;
+}
+
+.birth-pic img {
+    height: 350px;
+    width: 700px;
+    margin-top: 110px;
+}
+
+.navbar ul >*:not(:first-child){
+    /* display: flex;
+    justify-content: center; */
+    margin-inline-start: 15px;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* .clicked {
+    color:deeppink;
+} */
+
+.gift-app .gift-list {
+    display: grid;
+    /* grid-auto-flow: column; */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+}
+
+.gift-preview {
+    /* margin: 8px; */
+    /* background-color: rgb(53, 209, 201); */
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px white solid;
+    border-radius: 3px;
+    height: 340px;
+    width: 270px;
+}
+
+.gift-preview img {
+    min-height: 300px;
+    max-width: 285px;
+    object-fit: contain;
+}
+
+.gift-preview .gift-name {
+    font-size: 15px;
+}
+
+
+/* HELPERS */
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.clean-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
