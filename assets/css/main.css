@@ -78,8 +78,8 @@ body {
 
 @media (max-width:740px) {
     .birth-pic img {
-        height: 200px;
-        width: 400px;
+        height: 170px;
+        width: 340px;
         margin-top: 110px;
     }
 }
