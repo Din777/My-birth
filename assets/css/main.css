@@ -76,6 +76,13 @@ body {
     font-size: 15px;
 }
 
+@media (max-width:740px) {
+    .birth-pic img {
+        height: 200px;
+        width: 400px;
+        margin-top: 110px;
+    }
+}
 
 /* HELPERS */
 .flex {

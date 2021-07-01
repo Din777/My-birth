@@ -11,7 +11,7 @@ export class App extends React.Component {
 
     render() {
         return <section className="app">
-            <h1>Welcome to my birthday app 🥳</h1>
+            <h1>Welcome to my birthday gift app 🥳</h1>
             <nav className="navbar flex justify-center">
                 <ul className="clean-list">
                     <li onClick={() => this.setState({ currPage: 'home' })} className={this.state.color}>
