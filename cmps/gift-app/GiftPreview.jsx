@@ -2,9 +2,8 @@ export function GiftPreview({ gift }) {
 
     function getPicture() {
         console.log('gift.nickname', gift.nickname);
-        console.log('gift.src', gift.src);
         if (gift.nickname === 'skalka') return "./assets/img/skalka.jpg"
-        else if (gift.nickname === 'havaianas') return "./assets/img/scrub.jpg"
+        else if (gift.nickname === 'havaianas') return "./assets/img/havaianass.jpg"
         else if (gift.nickname === 'scrub') return "./assets/img/scrub.jpg"
         else return "./assets/img/spray.jpg"
     }
