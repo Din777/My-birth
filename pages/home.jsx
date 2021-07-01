@@ -8,7 +8,7 @@ export function Home() {
                 <span>🎉</span>
             </div>
             <div className="birth-pic">
-                <img src='./assets/img/muffin.jpg' alt="" />
+                <img src="./assets/img/muffin.jpg" alt="" />
             </div>
         </section>
     )
